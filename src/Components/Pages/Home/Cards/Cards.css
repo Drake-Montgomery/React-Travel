@@ -1,0 +1,23 @@
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .profile-circel-image-200 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+  }
+
+  #img_1{
+      transition: all 0.3s ease;
+      cursor: pointer;
+  }
