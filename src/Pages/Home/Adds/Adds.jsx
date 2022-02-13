@@ -1,6 +1,6 @@
 import './Adds.css';
-import img1 from '../../../../Assets/Img/food_01.jpg';
-import img2 from '../../../../Assets/Img/meet.jpg';
+import img1 from '../../../Assets/Img/food_01.jpg';
+import img2 from '../../../Assets/Img/meet.jpg';
 
 export default () => {
     return (

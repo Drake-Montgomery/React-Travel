@@ -1,7 +1,8 @@
 import './Carousel.css';
-import img1 from '../../../../Assets/Img/Dubai.jpg'
-import img2 from '../../../../Assets/Img/Golden_gate.jpg'
-import img3 from '../../../../Assets/Img/greece.JPG'
+import img1 from '../../../Assets/Img/Dubai.jpg';
+import img2 from '../../../Assets/Img/Golden_gate.jpg';
+import img3 from '../../../Assets/Img/greece.JPG';
+import { Link } from "react-router-dom";
 
 export default () => {
     return (
@@ -25,7 +26,9 @@ export default () => {
                             <div className="carousel-caption text-start">
                                 <h1>Explore Dubai</h1>
                                 <p>Have you ever see The biggest build in the world ?</p>
-                                <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                                <Link to="/Promocao">
+                                <p><a className="btn btn-lg btn-primary" href="#">More info</a></p>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -35,7 +38,9 @@ export default () => {
                             <div className="carousel-caption">
                                 <h1>San Francisco</h1>
                                 <p>The iconic Golden Gate Bridge is waiting for you</p>
-                                <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                                <Link to="/Promocao">
+                                <p><a className="btn btn-lg btn-primary" href="#">More info</a></p>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -45,7 +50,9 @@ export default () => {
                             <div className="carousel-caption text-start">
                                 <h1>Uncover the stories of Greece</h1>
                                 <p>Visit one of the oldest cities in the world</p>
-                                <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                                <Link to="/Promocao">
+                                <p><a className="btn btn-lg btn-primary" href="#">More info</a></p>
+                                </Link>
                             </div>
                         </div>
                 </div>

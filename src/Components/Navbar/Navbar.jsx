@@ -22,7 +22,9 @@ export default () => {
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link to="/Destino">
                             <a className="nav-link text-light"><i className="fas fa-suitcase"></i> Destinos</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/Promocao">
@@ -30,7 +32,9 @@ export default () => {
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link to="/Contato">
                             <a className="nav-link text-light"><i className="fas fa-envelope"></i> Contato</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
