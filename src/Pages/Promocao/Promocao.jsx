@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from '../../Components/Navbar/Navbar';
 import './Promocao.css';
-import Card from './Promotion_Cards/Destiny_Cards';
+import Card from '../../Components/Promotion_Cards/Destiny_Cards';
 import Rio from '../../Assets/Img/rio_de_janeiro.jpg';
 import Moscow from '../../Assets/Img/Moscow.jpg';
 import India from '../../Assets/Img/India_01.jpg';

@@ -1,6 +1,6 @@
-import card1 from '../../../Assets/Img//ticket.jpg';
-import card2 from '../../../Assets/Img/London_by_Night.jpg';
-import card3 from '../../../Assets/Img/losangeles.jpg';
+import card1 from '../../Assets/Img//ticket.jpg';
+import card2 from '../../Assets/Img/London_by_Night.jpg';
+import card3 from '../../Assets/Img/losangeles.jpg';
 import './Cards.css';
 
 export default () => {

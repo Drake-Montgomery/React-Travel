@@ -1,7 +1,7 @@
 import './Carousel.css';
-import img1 from '../../../Assets/Img/Dubai.jpg';
-import img2 from '../../../Assets/Img/Golden_gate.jpg';
-import img3 from '../../../Assets/Img/greece.JPG';
+import img1 from '../../Assets/Img/Dubai.jpg';
+import img2 from '../../Assets/Img/Golden_gate.jpg';
+import img3 from '../../Assets/Img/greece.JPG';
 import { Link } from "react-router-dom";
 
 export default () => {

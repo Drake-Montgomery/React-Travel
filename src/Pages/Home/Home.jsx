@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from '../../Components/Navbar/Navbar';
-import Carousel from './Carousel/Carousel';
-import Cards from './Cards/Cards';
-import Adds from './Adds/Adds';
+import Carousel from '../../Components/Carousel/Carousel';
+import Cards from '../../Components/Cards/Cards';
+import Adds from '../../Components/Adds/Adds';
 
 export default () => {
     return (
